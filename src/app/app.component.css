@@ -1,0 +1,25 @@
+main a {
+    color: var(--primary-color);
+    text-decoration: inherit;
+}
+
+main a:hover {
+    color: brown
+}
+
+header {
+    display: flex;
+    gap: 10px
+}
+
+header h2 {
+    color: var(--primary-color),
+}
+
+header img {
+    color: var(--primary-color)
+}
+
+.content {
+    margin: 0 auto;
+}

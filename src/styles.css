@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #FF3249;
+    --secondary-color: #9e1222;
+    font-family: "Poppins", sans-serif;
+    --accent-color: rgba(255, 0, 0, 0.099);
+}
+
+button {
+    padding: 10px;
+    border: solid 1px var(--primary-color);
+    background: var(--primary-color);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: var(--secondary-color);
+    border: solid 1px var(--secondary-color);
+}
